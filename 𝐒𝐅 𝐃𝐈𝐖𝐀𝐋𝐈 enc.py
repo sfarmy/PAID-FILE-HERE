@@ -1,9 +1,3 @@
-
-# Auto-generated runnable stub — method: base32
-import base64
-import binascii
-
-PAYLOAD_B64 = '''
 # Auto-generated runnable stub — method: base32
 import base64
 import binascii
