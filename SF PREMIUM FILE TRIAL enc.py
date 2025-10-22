@@ -1,3 +1,23 @@
+import os, sys, importlib, subprocess
+
+try:
+    importlib.import_module("Crypto")
+    print("pycryptodome already installed. ✅")
+except ImportError:
+    print("Installing pycryptodome... ⏳")
+   
+    subprocess.call(
+        [sys.executable, "-m", "pip", "install", "pycryptodome"]
+    )
+
+    try:
+        importlib.import_module("Crypto")
+        print("pycryptodome installed successfully. ✅")
+    except ImportError:
+        print("❌ Installation failed.")
+
+
+
 
 # Auto-generated runnable stub — method: hex
 import base64
