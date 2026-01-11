@@ -1,5 +1,4 @@
 
-
 # ════════════════════
 __ENC_AUTHOR__ = "STEIN"
 __TELEGRAM__ = "@rejerk"
